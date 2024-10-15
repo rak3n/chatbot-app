@@ -1,0 +1,21 @@
+.selectedExchange,
+.selectedStockMenu {
+  margin: 10px 10px 10px auto;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #ddd;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  width: max-content;
+  min-width: 114px;
+}
+
+.actionButton {
+  background: #001eff;
+  color: #fff;
+  border: none;
+}
+
+.actionButton:hover {
+  color: black;
+}

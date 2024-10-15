@@ -1,0 +1,17 @@
+.homeMenu {
+    display: flex;
+    gap: 18px;
+}
+
+.homeMenu img {
+    display: flex;
+    align-self: flex-end;
+}
+
+.homeMenu .menu {
+    width: 75%;
+    background: #6cabdd;
+    padding: 0 5px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
