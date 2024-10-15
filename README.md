@@ -46,3 +46,12 @@ This app also has a docker file, which allows end user to build an image of this
 
 # Demo Deployed at Vercel
 This app is also deployed on https://chatbot-app-zeta.vercel.app/ and is available to use publicly
+
+
+<br>
+
+# Assumptions Made
+- As this is a chat application, I have implemented functionality to automatically scroll to the bottom of the chat screen whenever a new message is added to the activity.
+- I've observed that in chat applications, previous inputs usually remain accessible, so I retained the click listeners to allow users to select from earlier inputs as well.
+- I included checks for empty stock exchanges or empty stocks within an exchange. I assume that the data for stocks will be validated before being sent to the UI components from the network/API layer.
+- The activity list of the chat is a large array that grows as new chats are added; in a real-world scenario, it should be paginated to a reasonable limit.
