@@ -44,5 +44,5 @@ This app also has a docker file, which allows end user to build an image of this
 4. Open your browser and navigate to `http://localhost:3000/` to use the chatbot.
 
 
-# Demo Deployed at Vecel
+# Demo Deployed at Vercel
 This app is also deployed on https://chatbot-app-zeta.vercel.app/ and is available to use publicly
