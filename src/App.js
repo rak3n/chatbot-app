@@ -4,7 +4,6 @@ import Chat from './container/Chat';
 import stocksData from './assets/stock-data.json'
 
 function App() {
-  console.log(stocksData)
   return (
     <section>
     <Navbar />
